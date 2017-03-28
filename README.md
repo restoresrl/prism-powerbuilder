@@ -14,7 +14,7 @@ Simple download `*.js` and `*.css` files and put this code on your HTML:
 </head>
 
 <body>
-...
+  ...
   <pre><code class="language-powerbuilder">
 	/* Some PB code */
  	for li_idx = li_count to 1 /* a strange comment here */ step -1
