@@ -1,0 +1,49 @@
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+.token.operator {
+	color: #a67f59;
+	background: transparent;
+}
+
+.token.comment {
+  color: blue;
+}
+
+.token.punctuation {
+  color: #999;
+}
+
+.token.number {
+  color: navy;
+}
+
+.token.string {
+  color: maroon;
+}
+
+.token.pronoun {
+  color: darkgreen;
+}
+
+.token.keyword {
+  color: green;
+}
+
+.token.function {
+  color: darkblue;
+}
+
+.token.datatype {
+  color: purple;
+}
+
+.token.date {
+  color: cyan;
+}
+.token.time {
+  color: teal;
+}

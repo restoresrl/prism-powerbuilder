@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>prism-powerbuilder</title>
+  <link href="prism.css" rel="stylesheet" />
+  <link href="prism-powerbuilder.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>PowerBuilder Syntax Highligth with Prism</h1>
+  <h2>Inline example</h2>
+  Ut enim ad minim veniam,
+  <code class="language-powerbuilder">boolean lb_test = true</code>
+  quis nostrud exercitation
+  ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <br>
+  <h2>Block example</h2>
+  <pre><code class="language-powerbuilder">
+	/*
+		Test prism-powerbuilder
+		Example:
+			if true then
+				return "TRUE"
+			else
+				return "FALSE"
+			end if
+	*/
+	integer		li_test 	= 12
+	decimal		ldec_test 	= 99.99999					// a decimal number
+	long		ll_test 	= -4.1E-2					// a "negative" long number
+	ulong		lul_test 	= +7.45E16					// a very long number
+	string		ls_test 	= "test the string"
+	string		ls_test2 	= "test the 'string~n~r"
+	string		ls_test3 	= 'test the "string"~n~r'
+	date		ld_test 	= 2017-03-01
+	time		lt_test 	= 23:58:00
+	boolean		lb_test 	= true
+	char		lch_test 	= "c"
+	any			la_array[3], la_array_unb[]
+
+	ls_test = 	"test 'the' string"
+	ls_test	= 	'test The ~'string~' ~xFF~o123~126' + &
+				"test ~"THE~" 'string~t"
+
+	li_count = upperbound(argument)
+	if li_count < 0 then
+		// argument is not an array
+		if classname(argument) = "string" and classname(value) = "string" then
+			argument = value + argument
+			return len(string(argument))
+		else
+			return 0
+		end if
+	end if
+
+	for li_idx = li_count to 1 /* a strange comment here */ step -1
+		this.swapinto(la_array, li_idx, li_idx + 1)
+	next
+	la_array[1] = value
+	argument = la_array
+
+	return li_idx + 1
+  </code></pre>
+  <script src="prism.min.js"></script>
+  <script src="prism-powerbuilder.js"></script>
+</body>
+</html>
