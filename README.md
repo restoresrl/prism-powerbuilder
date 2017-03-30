@@ -1,5 +1,9 @@
 # prism-powerbuilder
 Simple javascript syntax highlighter for Powerbuilder language. Based on Prism https://github.com/PrismJS/prism
+
+![Example](/prism-pb-example.png)
+
+
 ## Usage
 Simple download `*.js` and `*.css` files and put this code on your HTML:
 
@@ -29,7 +33,3 @@ Simple download `*.js` and `*.css` files and put this code on your HTML:
 </body>
 </html>
 ```
-
-Example (see index.html):
-
-![Example](/prism-pb-example.png)
