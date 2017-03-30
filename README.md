@@ -29,3 +29,6 @@ Simple download `*.js` and `*.css` files and put this code on your HTML:
 </body>
 </html>
 ```
+
+Example:
+![Example](/prism-pb-example.png)
