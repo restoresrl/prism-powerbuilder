@@ -31,4 +31,5 @@ Simple download `*.js` and `*.css` files and put this code on your HTML:
 ```
 
 Example:
+
 ![Example](/prism-pb-example.png)
