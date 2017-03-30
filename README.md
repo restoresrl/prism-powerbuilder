@@ -30,6 +30,6 @@ Simple download `*.js` and `*.css` files and put this code on your HTML:
 </html>
 ```
 
-Example:
+Example (see index.html):
 
 ![Example](/prism-pb-example.png)
