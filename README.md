@@ -4,7 +4,7 @@ Simple web syntax highlighter for Powerbuilder code. Based on Prism https://gith
 ![Example](/prism-pb-example.png)
 
 ## Usage
-Put `prism.min.js`, `prism-powerbuilder.js`, `prism.css`,  and `prism-powerbuilder.css` into static/assets site folder and reference it from HTML pages:
+Download and put `prism.min.js`, `prism-powerbuilder.js`, `prism.css`,  and `prism-powerbuilder.css` into static/assets site folder and reference it from pages:
 
 ```html
 <!DOCTYPE html>
