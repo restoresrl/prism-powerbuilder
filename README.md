@@ -1,11 +1,10 @@
 # prism-powerbuilder
-Simple javascript syntax highlighter for Powerbuilder language. Based on Prism https://github.com/PrismJS/prism
+Simple web syntax highlighter for Powerbuilder code. Based on Prism https://github.com/PrismJS/prism
 
 ![Example](/prism-pb-example.png)
 
-
 ## Usage
-Simple download `*.js` and `*.css` files and put this code on your HTML:
+Put `prism.min.js`, `prism-powerbuilder.js`, `prism.css`,  and `prism-powerbuilder.css` into static/assets site folder and reference it from HTML pages:
 
 ```html
 <!DOCTYPE html>
